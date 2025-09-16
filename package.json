@@ -9,15 +9,14 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "dev:ssl": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
-    "generate": "nuxt generate",
+    "generate": "echo 'nuxt generate disabled for Netlify' && exit 0",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "bumpp && nuxthub deploy"
+    "deploy": "echo 'nuxthub deploy disabled' && exit 0"
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",
     "@nuxt/ui": "^2.22.3",
-    "@nuxthub/core": "0.9.0",
     "@nuxtjs/i18n": "10.1.0",
     "@supabase/supabase-js": "^2.45.4",
     "notivue": "^2.4.5",

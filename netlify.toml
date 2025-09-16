@@ -1,7 +1,7 @@
 # netlify.toml
 [build]
-  command = "pnpm build"
-  publish = "dist"        # for SSR with nitro 'netlify' (default)
+  command = "pnpm install --no-frozen-lockfile && pnpm build"
+  publish = ".netlify/publish"
   node_version = "20"
 
 [build.environment]

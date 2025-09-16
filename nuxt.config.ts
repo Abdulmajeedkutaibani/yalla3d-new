@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     'notivue/nuxt',
-    '@nuxthub/core',
     '@nuxtjs/i18n',
   ],
 
@@ -42,9 +41,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  hub: {
-    cache: true,
-  },
+  // NuxtHub removed for Netlify compatibility
 
   notivue: {
     position: 'top-center',
