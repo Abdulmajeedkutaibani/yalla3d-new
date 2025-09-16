@@ -1,0 +1,85 @@
+{
+  "general": {
+    "go_back": "عودة",
+    "loading": "جارٍ التحميل..."
+  },
+  "theme": {
+    "dark": "داكن",
+    "light": "فاتح",
+    "system": "النظام",
+    "toggle": "تبديل النمط"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "categories": "التصنيفات",
+    "favorites": "المفضلة",
+    "products": "المنتجات"
+  },
+  "footer": {
+    "developed_by_author": "بواسطة {author}",
+    "change_language": "تغيير اللغة"
+  },
+  "search": {
+    "placeholder": "ابحث...",
+    "placeholder_in_category": "ابحث في {category}...",
+    "no_results_for_query": "لا توجد نتائج لـ {query}",
+    "no_results_suggestion": "جرّب تحسين النتائج بفحص الإملاء أو استخدام كلمة أكثر عمومية.",
+    "view_all_results": "عرض كل النتائج",
+    "new_products": "منتجات جديدة",
+    "no_products_matching": "لا توجد منتجات مطابقة",
+    "no_products_found_matching": "لم يتم العثور على منتجات مطابقة",
+    "no_products_found": "لم يتم العثور على منتجات",
+    "use_search_bar_above": "يمكنك استخدام شريط البحث أعلاه لتجربة مصطلحات مختلفة.",
+    "in": "في",
+    "reset_search": "إعادة تعيين البحث"
+  },
+  "filter": {
+    "all_categories": "كل التصنيفات",
+    "newest": "الأحدث",
+    "price_low_high": "السعر: من الأقل إلى الأعلى",
+    "price_high_low": "السعر: من الأعلى إلى الأقل"
+  },
+  "checkout": {
+    "title": "إتمام الشراء",
+    "form": {
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "city": "المدينة",
+      "address": "العنوان"
+    },
+    "pay": {
+      "description": "دفع مبلغ إجمالي قدره {total} مقابل {items} عناصر",
+      "btn": "ادفع {total}",
+      "secure": "مدفوعتك مؤمنة بواسطة {method}",
+      "success": "تم الدفع بنجاح!",
+      "processed": "شكرًا لشرائك! جاري معالجة طلبك.",
+      "total": "الإجمالي",
+      "order_number": "رقم الطلب",
+      "date": "التاريخ",
+      "payment_method": "طريقة الدفع"
+    }
+  },
+  "product": {
+    "originally": "الأصل",
+    "size": "المقاس",
+    "quantity": "الكمية",
+    "sku": "رقم الصنف",
+    "vat_included": "شامل ضريبة القيمة المضافة",
+    "featured_information": "معلومات مميزة",
+    "free_return": "إرجاع مجاني خلال 15 يومًا. اضغط للتفاصيل",
+    "information": "معلومات",
+    "shop_similar": "تسوق المشابه"
+  },
+  "cart": {
+    "empty": "سلة التسوق فارغة",
+    "notting_added": "لم تقم بإضافة أي عناصر إلى سلتك بعد.",
+    "add_to_cart": "أضف إلى السلة",
+    "added_to_cart": "تمت الإضافة إلى السلة"
+  },
+  "favorites": {
+    "nothing_to_show_yet": "لا شيء للعرض... حتى الآن!",
+    "wishlist_lives_here": "ستظهر قوائم الرغبات التي تنشئها هنا. هذه بعض من الأشياء المفضلة لديك..."
+  }
+}
