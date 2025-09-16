@@ -1,0 +1,8 @@
+# netlify.toml
+[build]
+  command = "pnpm build"
+  publish = "dist"        # for SSR with nitro 'netlify' (default)
+  node_version = "20"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
